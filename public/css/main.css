@@ -1,0 +1,213 @@
+/* спецификация */
+
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+/* Первый экран */
+
+header {
+    background-color: #fcdb00;
+    color: black;
+    padding-top: 57px;
+}
+
+.menu {
+    margin-top: 7px;
+}
+
+.menu__item {
+    margin: 0 57px;
+}
+
+.menu__item a {
+    font-size: 22px;
+    font-weight: 700px;
+    color: black;
+}
+
+h1, h2, h3, h4, h5 {
+    color: black;
+    font-weight: 700;
+}
+
+h3 {
+    font-weight: 400;
+}
+
+h2 {
+    text-align: center;
+}
+
+.offer {
+    margin-top: 117px;
+}
+
+.offer__title {
+    font-size: 32px;
+    margin-bottom: 27px;
+    color: #010101;
+}
+
+.offer__intro {
+    font-size: 20px;
+    margin-bottom: 27px;
+    color: #313841
+}
+
+.offer__text {
+    font-size: 16px;
+    margin-bottom: 43px;
+    color: #8b8045;
+}
+
+.icons a {
+    color: black;
+    font-size: 42px;
+}
+
+.icons__item a {
+    margin-right: 31px;
+}
+
+.ipad {
+    display: block;
+    margin: 0 auto;
+    margin-top: 72px;
+    padding-bottom: 112px;
+}
+
+.title {
+    margin-top: 124px;
+}
+
+.title__main {
+    margin-top: 31px;
+}
+
+.title__text {
+    max-width: 780px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 70px;
+}   
+
+.feature-offset {
+    margin-bottom: 170px;
+}
+
+.feature__icon {
+    font-size: 30px;
+    margin-right: 30px;
+    margin-top: 75px;
+}
+
+.feature__title {
+    font-size: 22px;
+    margin-top: 70px;
+}
+
+.feature__text {
+    font-size: 16px;
+    color: #313841;
+}
+
+.touch {
+    background: #010101;
+    color: #fff;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.margin-top-70 {
+    margin-top: 70px;
+}
+
+.form {
+    text-align: center;
+}
+
+.form__input {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 580px;
+    background: white;
+    height: 50px;
+    margin-right: 20px;
+    border: 0;
+    padding-left: 23px;
+    outline: none;
+}
+
+.form__btn {
+    background: yellow;
+    text-transform: uppercase;
+    color: #000;
+    font-family: 'PT Sans', sans-serif;
+    border: 0;
+    border-radius: 5px;
+    font-size: 16px;
+    height: 50px;
+    width: 120px;
+    cursor: pointer;
+    outline: none;
+}
+
+footer {
+    background: #000;
+    padding: 50px 0 94px;
+}
+
+.credits {
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    font-size: 16px;
+    width: 180px;
+}   
+
+/* адаптивность */
+
+@media screen and (max-width: 992px) {
+    .logo {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .offer {
+        text-align: center;
+    }
+
+    .icons__item a {
+        margin-right: 0px;
+    }
+
+    .form__input {
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .form__btn {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .menu__item {
+        margin: 0 20px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .menu {
+        flex-direction: column;
+        text-align: center;
+}
